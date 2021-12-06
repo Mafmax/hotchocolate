@@ -395,7 +395,7 @@ public class Startup
 }
 ```
 
-After this we can inject it into our resolvers and make use of the the `HttpContext` property.
+After this we can inject it into our resolvers and make use of the `HttpContext` property.
 
 ```csharp
 public string Foo(string id, [Service] IHttpContextAccessor httpContextAccessor)
